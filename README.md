@@ -98,6 +98,7 @@ Common solutions for XVideos download errors include: 1) Check your internet con
 ## More Info
 
 - 📁 Repository [here](https://github.com/serpapps/xvideos-video-downloader)
+- 📁 Gist [here](https://gist.github.com/devinschumacher/b46012ea1f35b8075b8b2642ed4887b9)
 
 <details>
   
