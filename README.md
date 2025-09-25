@@ -12,6 +12,7 @@ A comprehensive desktop application for downloading XVideos content with support
 - ❓ Check FAQs [here](https://github.com/orgs/serpapps/discussions/categories/faq)
 - 🐛 Report bugs [here](https://github.com/serpapps/xvideos-video-downloader/issues)
 - 🆕 Request features [here](https://github.com/serpapps/xvideos-video-downloader/issues)
+- 📋 View changelog [here](https://github.com/serpapps/xvideos-video-downloader/blob/main/CHANGELOG.md)
 
 ### Resources
 
@@ -46,7 +47,7 @@ A comprehensive desktop application for downloading XVideos content with support
 ## Installation Instructions
 
 1. Star ⭐ this repository
-2. Download the latest version (.zip) from the Releases area
+2. Download the latest version (.zip) from the [Releases](https://github.com/serpapps/xvideos-video-downloader/releases) area
 3. Double click the .zip file to unzip it
 4. Open Chrome and go to chrome://extensions/
 5. Enable developer mode by clicking the toggle switch
@@ -110,7 +111,7 @@ Common solutions for XVideos download errors include: 1) Check your internet con
 
 **Authors**: SERP Apps  
 **Date**: December 2024  
-**Version**: 1.0
+**Version**: 1.0.0
 
 ---
 
@@ -1591,7 +1592,7 @@ The strategies and tools documented in this research provide a comprehensive fou
 **Content Warning**: This document addresses adult content platforms. All research and implementation should be conducted in accordance with local laws and institutional policies regarding adult content.
 
 **Last Updated**: December 2024  
-**Research Version**: 1.0  
+**Research Version**: 1.0.0  
 **Next Review**: March 2025
 
 </details>
