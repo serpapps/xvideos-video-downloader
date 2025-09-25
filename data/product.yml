@@ -66,28 +66,9 @@ features:
   - Comprehensive logging and debugging capabilities
 description: >-
   XVideos Video Downloader is a powerful desktop application that allows you to download any XVideos video with just one click, including premium RED content and restricted videos that normally can't be downloaded. Built for content creators, researchers, and professionals who need reliable video backup and offline access, it preserves original HD quality while offering batch download capabilities and seamless compatibility across Windows, macOS, and Linux.
-product_videos:
-  - https://www.youtube.com/watch?v=example1
-  - https://www.youtube.com/watch?v=example2
-related_videos:
-  - https://www.youtube.com/watch?v=related1
-  - https://www.youtube.com/watch?v=related2
-screenshots:
-  - url: https://raw.githubusercontent.com/serpapps/xvideos-video-downloader/refs/heads/main/screenshots/xvideos-video-downloader-screenshot-1.jpg
-    alt: XVideos Video Downloader interface showing URL input and download options
-    caption: Clean and intuitive main interface for easy video downloading
-  - url: https://raw.githubusercontent.com/serpapps/xvideos-video-downloader/refs/heads/main/screenshots/xvideos-video-downloader-screenshot2.jpg
-    alt: Batch download feature processing multiple XVideos URLs
-    caption: Batch download functionality for downloading multiple videos at once
-  - url: https://raw.githubusercontent.com/serpapps/xvideos-video-downloader/refs/heads/main/screenshots/xvideos-video-downloader-screenshot3.jpg
-    alt: Quality selection dropdown showing HD, 720p, 480p options
-    caption: Choose from multiple quality options including HD resolution
-  - url: https://raw.githubusercontent.com/serpapps/xvideos-video-downloader/refs/heads/main/screenshots/xvideos-video-downloader-screenshot4.jpg
-    alt: Download progress bar showing real-time download status
-    caption: Real-time progress tracking with download speed and ETA
-  - url: https://raw.githubusercontent.com/serpapps/xvideos-video-downloader/refs/heads/main/screenshots/xvideos-video-downloader-screenshot5.jpg
-    alt: Thumbnail extraction and preview functionality
-    caption: Automatic thumbnail extraction and video preview capabilities
+product_videos: []
+related_videos: []
+screenshots: []
 reviews:
   - name: Alex Johnson
     review: This downloader is exactly what I needed! The batch download feature saved me hours of work when archiving content. Works flawlessly with premium videos too.
