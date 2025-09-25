@@ -1,6 +1,6 @@
 # XVideos Video Downloader
 
-> Download XVideos content including RED premium videos
+> Download videos from XVideos for offline viewing with a simple one-click download extension
 
 ![XVideos Video Downloader](https://raw.githubusercontent.com/serpapps/xvideos-video-downloader/main/images/xvideos-video-downloader.gif)
 
