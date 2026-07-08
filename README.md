@@ -1,4 +1,4 @@
-# XVideos Downloader (Browser Extension)
+# XVideos Video Downloader (Browser Extension)
 
 > Download supported XVideos videos as MP4 files directly from active watch pages.
 
@@ -12,7 +12,7 @@ XVideos Downloader is a browser extension built for users who want a cleaner way
 
 ## Links
 
-- :rocket: Get it here: [XVideos Downloader](https://serp.ly/xvideos-downloader)
+- :rocket: Get it here: [XVideos Downloader](https://serp.ly/xvideos-downloader?via=github)
 - :new: Latest release: [GitHub Releases](https://github.com/serpapps/xvideos-video-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
 - :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/xvideos-video-downloader/issues)
@@ -126,7 +126,7 @@ The extension only works on media you can already open and play in your active b
 - No credit card required for the trial
 - Unlimited downloads are available with a paid license
 
-Start here: [https://serp.ly/xvideos-downloader](https://serp.ly/xvideos-downloader)
+Start here: [https://serp.ly/xvideos-downloader?via=github](https://serp.ly/xvideos-downloader?via=github)
 
 ## Installation Instructions
 
