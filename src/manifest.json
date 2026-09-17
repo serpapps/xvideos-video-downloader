@@ -1,0 +1,92 @@
+{
+  "manifest_version": 3,
+  "name": "Downloader for XVideos",
+  "version": "4.0.3",
+  "description": "One-click video downloads from XVideos — fast, private, and full quality.",
+  "permissions": [
+    "downloads",
+    "activeTab",
+    "storage",
+    "notifications",
+    "contextMenus",
+    "tabs",
+    "scripting",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://api.github.com/*",
+    "https://auth.serp.co/*",
+    "https://www.xvideos.com/*",
+    "https://*.xvideos.com/*",
+    "https://www.xvideos.es/*",
+    "https://xvideos2.com/*",
+    "https://flashservice.xvideos.com/*",
+    "https://static-hw.xvideos.com/*"
+  ],
+  "background": {
+    "service_worker": "background-enhanced.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.xvideos.com/*",
+        "https://*.xvideos.com/*",
+        "https://www.xvideos.es/*",
+        "https://xvideos2.com/*",
+        "https://flashservice.xvideos.com/*",
+        "https://static-hw.xvideos.com/*"
+      ],
+      "js": [
+        "serp-bundles/content-1.bundle.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Downloader for XVideos",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "inject.js",
+        "styles/download-manager.css",
+        "styles/player-button.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    },
+    {
+      "resources": [
+        "offscreen.html",
+        "offscreen.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    },
+    {
+      "resources": [
+        "modules/**/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

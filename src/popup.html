@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Video Downloader for XVideos</title>
+    <style id="serp-auth-boot-css">#activationSection{display:none !important;} #activationSection[data-serp-auth-ui="1"]{display:block !important;}</style>
+    <script src="site-config.js"></script>
+    <script src="logger.js"></script>
+    <style id="vdp-popup-tweaks">#download-progress,.download-progress{display:none !important;}</style>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/popup-enhanced.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="quickHelpBanner" class="quick-help-banner hidden" role="status" aria-live="polite">
+        <div class="quick-help-heading">How to download:</div>
+        <div class="quick-help-text">
+          Open an XVideos video page with the player, press play, then open this popup.
+        </div>
+      </div>
+
+      <div class="header">
+        <h1>Video Downloader for XVideos</h1>
+        <div class="header-right">
+          <button id="quickHelpBtn" class="help-btn" title="Quick help" aria-label="Quick help">?</button>
+        </div>
+      </div>
+      <div id="bootSplash" class="status loading">Loading...</div>
+
+      <div id="activationSection" class="activation-section hidden">
+        <h2>Activate Video Downloader for XVideos</h2>
+        <p>Please enter your email and license key to activate the extension.</p>
+
+        <div class="input-group">
+          <label for="emailInput">Email:</label>
+          <input type="email" id="emailInput" placeholder="Enter your email" />
+        </div>
+
+        <div class="input-group">
+          <label for="licenseKeyInput">License Key:</label>
+          <input type="text" id="licenseKeyInput" placeholder="Enter your license key" />
+        </div>
+
+        <button id="activateBtn" class="activate-btn">Activate</button>
+        <div id="activationStatus" class="activation-status hidden"></div>
+
+        <div id="helpSection" class="help-section hidden">
+          <h3>How to get your license key:</h3>
+          <ol>
+            <li>Check your email for the purchase confirmation</li>
+            <li>Look for the license key in the email</li>
+            <li>Copy and paste it into the field above</li>
+          </ol>
+          <p>If you can't find your license key, please contact support.</p>
+        </div>
+
+        <a href="https://serp.ly/xvideos-video-downloader" id="buyKeyLink" class="buy-key-link" target="_blank">Buy Product</a>
+      </div>
+
+      <div id="mainContent" class="main-content hidden">
+        <div id="loading" class="loading">
+          <div class="spinner"></div>
+          <p>Detecting video...</p>
+        </div>
+
+        <div id="error" class="error hidden">
+          <p class="error-message"></p>
+        </div>
+
+        <div id="video-info" class="video-info hidden">
+          <div class="video-card">
+            <div class="video-thumbnail-container">
+              <img id="thumbnail" class="video-thumbnail-image" src="" alt="Video thumbnail" />
+              <div class="thumbnail-placeholder" id="thumbnail-placeholder">
+                <div class="placeholder-content">
+                  <div class="placeholder-icon"></div>
+                  <div class="placeholder-text">No preview yet</div>
+                </div>
+              </div>
+              <div class="video-duration-badge" id="duration-badge"></div>
+            </div>
+
+            <div class="video-details">
+              <h2 id="video-title">Video Downloader for XVideos</h2>
+              <div class="video-meta">
+                <span id="video-duration" class="duration"></span>
+              </div>
+            </div>
+
+            <div class="download-section">
+              <h3>Select Quality:</h3>
+              <select id="quality-select" class="quality-select">
+                <option value="">Loading formats...</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <button id="download-btn" class="download-btn" disabled>
+          <span class="btn-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/>
+            </svg>
+          </span>
+          <span class="btn-text">Download Video</span>
+        </button>
+
+        <div id="download-progress" class="download-progress hidden">
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+          <div class="progress-text">Preparing download...</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="auth.js"></script>
+    <script defer src="popup.js"></script>
+      <script defer src="auth-ui.js"></script>
+    <script defer src="trial-banner.js"></script>
+    <script defer src="update-notifier.js"></script>
+</body>
+</html>
+
+
+

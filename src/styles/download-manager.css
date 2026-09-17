@@ -1,0 +1,11 @@
+/* Shared Download Manager styling (site-specific colors via CSS vars) */
+.serp-download-manager {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.serp-download-manager .cancel-download-btn:hover {
+  color: #fff !important;
+  background-color: rgba(255,255,255,0.12) !important;
+}
+.serp-download-manager .downloads-container {
+  scrollbar-width: thin;
+}
